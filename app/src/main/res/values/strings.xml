@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Bill Please</string>
+    <string name="tvAmt">Amount</string>
+    <string name="etAmt">Number of People</string>
+    <string name="nosvs">No SVS</string>
+    <string name="svs">SVS</string>
+    <string name="nogst">No GST</string>
+    <string name="gst">GST</string>
+    <string name="discount">Discount (%)</string>
+    <string name="cash">Cash</string>
+    <string name="paynow">PayNow</string>
+    <string name="split">Split</string>
+    <string name="reset">Reset</string>
+    <string name="entAmt">Enter amount</string>
+    <string name="entPax">Enter number of people</string>
+    <string name="entDiscount">Enter Discount</string>
+</resources>
