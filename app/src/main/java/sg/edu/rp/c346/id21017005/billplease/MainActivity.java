@@ -85,20 +85,18 @@ public class MainActivity extends AppCompatActivity {
                 }
                 else{
                     tvDisplayTotalAmt.setText("ERROR");
-                    tvDisplayAmtSplit.setText("Please enter correct values");
+                    tvDisplayAmtSplit.setText("Please fill up all blanks");
                 }
             }
         });
         btnReset.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                if (amtEntered.getText().toString().trim().length() != 0 && paxEntered.getText().toString().trim().length() != 0 && discountEntered.getText().toString().trim().length() != 0) {
-                    amtEntered.setText(0);
-                    paxEntered.setText(0);
-                    discountEntered.setText(0);
-                    tvDisplayTotalAmt.setText("");
-                    tvDisplayAmtSplit.setText("");
-                }
+                amtEntered.setText("");
+                paxEntered.setText("");
+                discountEntered.setText("");
+                tvDisplayTotalAmt.setText("");
+                tvDisplayAmtSplit.setText("");
             }
         });
     }
